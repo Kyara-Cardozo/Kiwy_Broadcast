@@ -1,0 +1,18 @@
+# Chave privada do Firebase (MUITO IMPORTANTE)
+firebase-key.json
+
+# Dependências do Node
+node_modules/
+functions/node_modules/
+web/node_modules/
+
+# Arquivos de Build
+dist/
+web/dist/
+
+# Sistema operacional
+.DS_Store
+
+.env
+.env.*
+!.env.example

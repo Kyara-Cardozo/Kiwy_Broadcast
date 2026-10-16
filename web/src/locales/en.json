@@ -1,0 +1,82 @@
+{
+  "login": {
+    "brandTitle": "Broadcast Kywi Platform",
+    "title": "Get more things done with Kywi platform.",
+    "subtitle": "Access to the most powerful tool in the entire design and web industry.",
+    "description": "Manage your connections, organize contacts, and run high-performance automated broadcasts and scheduling.",
+    "tabLogin": "Login",
+    "tabRegister": "Register",
+    "emailPlaceholder": "E-mail Address",
+    "passwordPlaceholder": "Password",
+    "loginButton": "Login",
+    "registerButton": "Register",
+    "forgotPassword": "Forget password?",
+    "orLoginWith": "Or login with",
+    "facebook": "Facebook",
+    "google": "Google",
+    "linkedin": "Linkedin",
+    "errorAuth": "Authentication error. Check your data."
+  },
+  "broadcast": {
+    "title": "Broadcast & Dispatch Panel",
+    "newTitle": "New Message / Broadcast",
+    "editTitle": "Edit Message",
+    "selectConnection": "Select Connection",
+    "selectPlaceholder": "Select...",
+    "scheduleLabel": "Schedule for (Optional)",
+    "selectContacts": "Select Contacts:",
+    "contentPlaceholder": "Message Content",
+    "sendNow": "Send Immediately",
+    "scheduleSend": "Schedule Dispatch",
+    "updateMessage": "Update Message",
+    "cancel": "Cancel",
+    "historyTitle": "Message History",
+    "filterAll": "All",
+    "filterSent": "Sent",
+    "filterScheduled": "Scheduled",
+    "statusSent": "Sent",
+    "statusScheduled": "Scheduled",
+    "selectedContactsCount": "Selected contacts:",
+    "scheduledFor": "Scheduled for:",
+    "empty": "No messages found.",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "dashboard": {
+    "title": "Client Dashboard",
+    "connectionTab": "Connections & Contacts",
+    "broadcastTab": "Broadcasts & Messaging",
+    "logout": "Log Out"
+  },
+  "connections": {
+    "title": "Manage Connections",
+    "namePlaceholder": "Connection Name",
+    "addButton": "Add Connection",
+    "updateButton": "Update Connection",
+    "empty": "No connections registered."
+  },
+  "contacts": {
+    "title": "Manage Contacts",
+    "selectConnection": "Link to Connection",
+    "selectPlaceholder": "Select a connection...",
+    "namePlaceholder": "Contact Name",
+    "phonePlaceholder": "Phone Number",
+    "addButton": "Add Contact",
+    "updateButton": "Update Contact",
+    "connectionLabel": "Connection:",
+    "empty": "No contacts registered."
+  },
+  "broadcast": {
+    "newTitle": "New Broadcast",
+    "selectConnection": "Select Connection",
+    "selectPlaceholder": "Select a connection...",
+    "contentPlaceholder": "Broadcast message...",
+    "scheduleLabel": "Schedule for",
+    "sendNow": "Send / Schedule Message",
+    "updateMessage": "Update Message",
+    "historyTitle": "Broadcast History",
+    "statusSent": "Sent",
+    "statusScheduled": "Scheduled for:",
+    "empty": "No messages sent or scheduled."
+  }
+}

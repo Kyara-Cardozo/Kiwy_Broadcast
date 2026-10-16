@@ -1,0 +1,82 @@
+{
+  "login": {
+    "brandTitle": "Plataforma Kywi de transmissão",
+    "title": "Faça mais coisas com a plataforma Kywi.",
+    "subtitle": "Acesso à ferramenta mais poderosa em toda a indústria de design e web.",
+    "description": "Gerencie suas conexões, organize contatos e realize disparos e agendamentos automatizados com alta performance.",
+    "tabLogin": "Login",
+    "tabRegister": "Registrar",
+    "emailPlaceholder": "Endereço de e-mail",
+    "passwordPlaceholder": "Senha",
+    "loginButton": "Login",
+    "registerButton": "Registrar",
+    "forgotPassword": "Esqueceu a senha?",
+    "orLoginWith": "Ou faça login com",
+    "Facebook": "Facebook",
+    "google": "Google",
+    "linkedin": "Linkedin",
+    "errorAuth": "Erro ao autenticar. Verifique os dados."
+  },
+  "transmissão": {
+    "title": "Painel de Broadcast & Disparos",
+    "newTitle": "Nova Mensagem/Broadcast",
+    "editTitle": "Editar Mensagem",
+    "selectConnection": "Selecione uma conexão",
+    "selectPlaceholder": "Seleção...",
+    "scheduleLabel": "Agenda para (Opcional)",
+    "selectContacts": "Selecionar Contatos:",
+    "contentPlaceholder": "Conteúdo da Mensagem",
+    "sendNow": "Enviar contínuo",
+    "scheduleSend": "Agenda Disparo",
+    "updateMessage": "Atualizar Mensagem",
+    "cancelar": "Cancelar",
+    "historyTitle": "Histórico de Mensagens",
+    "filterAll": "Todas",
+    "filterSent": "Enviadas",
+    "filterScheduled": "Agendadas",
+    "statusSent": "Enviada",
+    "statusScheduled": "Agenda",
+    "selectedContactsCount": "Contatos selecionados:",
+    "scheduledFor": "Agenda para:",
+    "empty": "Nenhuma mensagem encontrada.",
+    "edit": "Editar",
+    "delete": "Excluir"
+  },
+  "dashboard": {
+    "title": "Painel do Cliente",
+    "connectionTab": "Conexões & Contatos",
+    "broadcastTab": "Broadcast & Disparos",
+    "logout": "Sair"
+  },
+  "connections": {
+    "title": "Gerenciar Conexões",
+    "namePlaceholder": "Nome da Conexão",
+    "addButton": "Adicionar Conexão",
+    "updateButton": "Atualizar Conexão",
+    "empty": "Nenhuma conexão cadastrada."
+  },
+  "contacts": {
+    "title": "Gerenciar Contatos",
+    "selectConnection": "Vincular à Conexão",
+    "selectPlaceholder": "Selecione uma conexão...",
+    "namePlaceholder": "Nome do Contato",
+    "phonePlaceholder": "Telefone",
+    "addButton": "Adicionar Contato",
+    "updateButton": "Atualizar Contato",
+    "connectionLabel": "Conexão:",
+    "empty": "Nenhum contato cadastrado."
+  },
+  "broadcast": {
+    "newTitle": "Nova Transmissão",
+    "selectConnection": "Selecionar Conexão",
+    "selectPlaceholder": "Selecione uma conexão...",
+    "contentPlaceholder": "Mensagem da transmissão...",
+    "scheduleLabel": "Agendar para",
+    "sendNow": "Enviar / Agendar Mensagem",
+    "updateMessage": "Atualizar Mensagem",
+    "historyTitle": "Histórico de Transmissões",
+    "statusSent": "Enviada",
+    "statusScheduled": "Agendada para:",
+    "empty": "Nenhuma mensagem enviada ou agendada."
+  }
+}

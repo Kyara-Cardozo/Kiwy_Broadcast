@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.login-container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+.lang-button-container {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    z-index: 20;
+}
+
+.lang-button {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    backdrop-filter: blur(4px);
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.2s;
+}
+
+.lang-button:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* Coluna Esquerda */
+.left-column {
+    flex: 1;
+    background: linear-gradient(135deg, #a3d95b 0%, #7ab536 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 3rem;
+    text-align: center;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 420px;
+    z-index: 2;
+}
+
+.kiwi-icon {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 2rem;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    box-shadow: 0 10px 25px rgba(43, 56, 35, 0.15);
+    border: 3px dashed #4f772d;
+}
+
+.brand-title {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.brand-description {
+    color: #f1f8e9;
+    font-size: 0.99rem;
+    line-height: 1.6;
+}
+
+/* Coluna Direita */
+.right-column {
+    flex: 1;
+    background-color: #2b3e22;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.header-titles .main-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    line-height: 1.25;
+}
+
+.header-titles .sub-title {
+    font-size: 0.99rem;
+    color: #dcedc8;
+    line-height: 1.5;
+}
+
+.tabs-container {
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 0.5rem;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding-bottom: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tab-button.active {
+    color: #a3d95b;
+    border-bottom: 2px solid #a3d95b;
+}
+
+.tab-button.inactive {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.error-box {
+    background-color: rgba(239, 68, 68, 0.2);
+    border: 1px solid #f87171;
+    color: #ffffff;
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.kiwi-text-field .MuiOutlinedInput-root {
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.kiwi-text-field .MuiOutlinedInput-root fieldset {
+    border: none;
+}
+
+/* Estilização do Botão - Envio */
+.kiwi-submit-button {
+    background-color: #a3d95b;
+    color: #1f3316;
+    font-weight: 700;
+    padding: 0.75rem 2.5rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: none;
+    transition: background-color 0.2s;
+}
+
+.kiwi-submit-button:hover {
+    background-color: #8bc34a;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.25rem;
+}
+
+.forgot-password {
+    font-size: 0.85rem;
+    color: #dcedc8;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #dcedc8;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.social-links {
+    display: flex;
+    gap: 0.75rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.social-item {
+    cursor: pointer;
+    text-decoration: underline;
+}

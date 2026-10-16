@@ -1,0 +1,268 @@
+/* src/pages/DashboardPage.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #f4f8ec;
+  font-family: 'Poppins', sans-serif;
+  color: #2b3e22;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Barra de Navegação Superior */
+.dashboard-navbar {
+  background-color: #2b3e22;
+  color: #ffffff;
+  padding: 1rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(43, 62, 34, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-brand-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.nav-brand-icon {
+  font-size: 1.5rem;
+}
+
+.nav-brand-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-tab-button {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-tab-button:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-tab-button.active {
+  color: #1f3316;
+  background-color: #a3d95b;
+  box-shadow: 0 2px 8px rgba(163, 217, 91, 0.3);
+}
+
+.nav-right-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.user-email-badge {
+  font-size: 0.85rem;
+  color: #dcedc8;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logout-btn {
+  background-color: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(248, 113, 113, 0.4);
+  color: #ff8a8a;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.2s ease;
+}
+
+.logout-btn:hover {
+  background-color: rgba(239, 68, 68, 0.3);
+  color: #ffffff;
+}
+
+/* Conteúdo Principal em Grid Lado a Lado */
+.dashboard-content {
+  max-width: 1300px;
+  width: 100%;
+  margin: 2.5rem auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2.5rem;
+  align-items: start;
+}
+
+/* Cartões do Painel */
+.kiwi-card {
+  background: #ffffff !important;
+  padding: 2.5rem !important;
+  border-radius: 20px !important;
+  box-shadow: 0 10px 30px rgba(43, 62, 34, 0.06) !important;
+  border: 1px solid #dcedc8 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  box-sizing: border-box;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #2b3e22;
+}
+
+.card-icon {
+  color: #7ab536 !important;
+  font-size: 1.8rem !important;
+}
+
+.card-title-text {
+  font-weight: 700 !important;
+  color: #2b3e22 !important;
+  font-size: 1.25rem !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.card-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Inputs */
+.kiwi-input .MuiOutlinedInput-root {
+  background-color: #f9fbe7;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.kiwi-input .MuiOutlinedInput-root fieldset {
+  border-color: #c5e1a5;
+}
+
+.kiwi-input .MuiOutlinedInput-root:hover fieldset {
+  border-color: #a3d95b;
+}
+
+.kiwi-input .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #7ab536;
+}
+
+/* Botões com o Verde-Kiwi Forçado */
+.kiwi-action-button,
+.kiwi-card .MuiButton-contained,
+button.MuiButton-containedPrimary {
+  background-color: #a3d95b !important;
+  color: #1f3316 !important;
+  font-weight: 700 !important;
+  padding: 0.85rem !important;
+  border-radius: 12px !important;
+  text-transform: none !important;
+  font-family: 'Poppins', sans-serif !important;
+  box-shadow: none !important;
+  border: none !important;
+  font-size: 1rem !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.kiwi-action-button:hover,
+.kiwi-card .MuiButton-contained:hover,
+button.MuiButton-containedPrimary:hover {
+  background-color: #8bc34a !important;
+}
+
+/* Listas de Registos */
+.items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  max-height: 320px;
+  overflow-y: auto;
+  margin-top: 0.5rem;
+  padding-right: 4px;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  background: #f4f8ec;
+  border-radius: 12px;
+  border: 1px solid #e8f5e9;
+}
+
+.item-name {
+  font-weight: 600;
+  color: #2b3e22;
+}
+
+.item-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.contact-main-text {
+  font-weight: 600;
+  color: #2b3e22;
+  margin: 0;
+}
+
+.contact-phone {
+  font-size: 0.8rem;
+  color: #78909c;
+  font-weight: 400;
+}
+
+.contact-conn-label {
+  font-size: 0.75rem;
+  color: #7ab536;
+  margin: 4px 0 0 0;
+  font-weight: 600;
+}
+
+.empty-list-text {
+  font-size: 0.9rem;
+  color: #78909c;
+  text-align: center;
+  padding: 2rem;
+  background: #fafaf9;
+  border-radius: 12px;
+  border: 1px dashed #e7e5e4;
+}
