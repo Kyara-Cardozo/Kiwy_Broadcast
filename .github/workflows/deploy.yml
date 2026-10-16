@@ -24,6 +24,13 @@ jobs:
       - name: Build Web App
         run: npm run build
         working-directory: ./web
+        env:
+          VITE_FIREBASE_API_KEY: ${{ secrets.VITE_FIREBASE_API_KEY }}
+          VITE_FIREBASE_AUTH_DOMAIN: "broadcast-sendflow.firebaseapp.com"
+          VITE_FIREBASE_PROJECT_ID: "broadcast-sendflow"
+          VITE_FIREBASE_STORAGE_BUCKET: "broadcast-sendflow.appspot.com"
+          VITE_FIREBASE_MESSAGING_SENDER_ID: "1088185063309"
+          VITE_FIREBASE_APP_ID: ${{ secrets.VITE_FIREBASE_APP_ID }}
 
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
